@@ -15,7 +15,6 @@ social:
 
 # THEME SETTINGS
 navigation: # Navigation links
-  - { name: 'Blog', link: '/' }
   - { name: 'FAQ', link: '/faq' }
   - { name: 'About', link: '/about' }
 

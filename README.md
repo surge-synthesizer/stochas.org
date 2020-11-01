@@ -57,12 +57,15 @@ By the time you have Ruby and node installed on macOS or Linux successfully, you
 ```
 gem install jekyll
 gem install bundle
+# if running windows:
+gem install wdm
 npm install --global gulp-cli
 git clone https://github.com/surge-synthesizer/stochas.org
 cd stochas.org
 bundle install
 npm install
 ```
+
 
 In theory, the Sleek theme comes with a modern development environment to refresh the brower with each change you make. I was not able to get this working on my system, but I was able to develop with two commands.
 

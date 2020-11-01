@@ -2,7 +2,7 @@
 title: Stochas # your site title
 author: surgeteam # You :P
 description: > # Meta description of Homepage
-  Stochas is a probabilistic polyrhythmic sequencer plugin
+  Open-source advanced probabilistic polyrhythmic sequencer plugin
 baseurl: '/' # the subpath of your site, e.g. /blog
 url: 'https://stochas.org/' # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -15,13 +15,14 @@ social:
 
 # THEME SETTINGS
 navigation: # Navigation links
-  - { name: 'FAQ', link: '/faq' }
-  - { name: 'About', link: '/about' }
+  - { name: 'Download', link: '/download' }
+  - { name: 'Documentation', link: '/documentation' }
+  - { name: 'Contact', link: '/contact' }  
 
 tagline: >
-  Stochas is a probabilistic polyrhythmic sequencer plugin
+  Open-source advanced probabilistic polyrhythmic sequencer plugin
 
-hero_img: posts/stochas_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
+hero_img: multi_dice.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
 email: no-reply@github.com # email for form submission
 
@@ -62,3 +63,4 @@ compress_html:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-email-protect

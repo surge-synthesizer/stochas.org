@@ -1,0 +1,1 @@
+this should be the incompatible dev release (prior to the USE_LEGACY_COMPATIBILITY_PLUGIN_CODE fix ) in case anyone needs to get to it
